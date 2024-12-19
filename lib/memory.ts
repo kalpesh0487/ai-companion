@@ -9,7 +9,6 @@ export type CompanionKey = {
   modelName: string;
   userId: string;
 };
-
 const PineconeClient = new Pinecone({
   apiKey: process.env.PINECONE_API_KEY!,
 });
